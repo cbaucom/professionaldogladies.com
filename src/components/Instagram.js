@@ -140,7 +140,7 @@ const Instagram = () => (
 	<StaticQuery
 		query={graphql`
 			query InstagramQuery {
-				instagram: allInstaNode(sort: { fields: timestamp, order: DESC }, limit: 20) {
+				instagram: allInstaNode(sort: { fields: timestamp, order: DESC }, limit: 21) {
 					edges {
 						node {
 							caption

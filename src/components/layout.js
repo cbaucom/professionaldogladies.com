@@ -26,10 +26,6 @@ const Layout = ({ children }) => {
 		<>
 			<div
 				style={{
-					alignItems: `center`,
-					display: `flex`,
-					flexDirection: `column`,
-					justifyContent: `center`,
 					margin: `0 auto`,
 					width: `100%`,
 				}}
