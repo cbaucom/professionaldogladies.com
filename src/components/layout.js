@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Professional Dog Ladies`} />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Professional Dog Ladies`} /> */}
       <div
         style={{
           alignItems: `center`,
@@ -33,8 +33,6 @@ const Layout = ({ children }) => {
           flexDirection: `column`,
           justifyContent: `center`,
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
           width: `100%`,
         }}
       >

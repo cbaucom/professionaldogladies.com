@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Coming Soon!`,
+    title: `Professional Dog Ladies`,
     description: `Informing you more about the dogs you know & love!`,
     author: `@professionaldogladies`,
   },
@@ -11,6 +11,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `8643220295`,
       },
     },
     `gatsby-transformer-sharp`,
